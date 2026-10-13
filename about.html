@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="day">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Us | AD Interior Studio</title>
+  <meta name="description" content="Meet AD Interior Studio: how we work, our four-step process, and homes designed for lights on and lights off.">
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo-mark.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=24">
+</head>
+<body class="page-about past-hero">
+
+  <!-- ============ HEADER ============ -->
+  <header class="header solid" id="header">
+    <a class="brand" href="index.html" aria-label="AD Interior Studio, home">
+      <span class="mark" aria-hidden="true"></span>
+      <span class="brand__text">Interior Studio</span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="#top" aria-current="page">About</a>
+      <a href="careers.html">Careers</a>
+    </nav>
+    <a class="btn btn--sm btn--bronze" href="contact.html">Contact us</a>
+  </header>
+
+  <!-- Lights on / off switch — appears once the tour ends, drives the whole page -->
+  <button class="mode-toggle" id="modeToggle" aria-label="Switch the lights on or off" aria-pressed="false">
+    <span class="mt-day">Lights on</span>
+    <span class="switch" aria-hidden="true"><span class="knob"></span></span>
+    <span class="mt-night">Off</span>
+  </button>
+
+  <main id="top">
+
+    <!-- ============ ABOUT ============ -->
+    <!-- hero: one full-bleed room, lights on / lights off -->
+    <section class="ahero" id="about">
+      <div class="frame ahero__frame">
+        <img class="img-day" src="assets/img/day-wide.jpg" alt="A living room by AD Interior Studio in daylight">
+        <img class="img-night" src="assets/img/night-wide.jpg" alt="The same living room at night, lit by warm cove lighting">
+      </div>
+      <div class="ahero__shade"></div>
+      <div class="ahero__copy">
+        <p class="eyebrow">About us</p>
+        <h1 class="page-title">One studio.<br>Homes for every hour.</h1>
+        <p>A design-and-build practice shaping calm, liveable homes. Flick the switch and see the same care after dark.</p>
+        <button class="btn btn--glass" id="heroToggle">Turn the lights off</button>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="about__intro reveal">
+        <p class="lead">AD Interior Studio is a design-and-build practice shaping calm, liveable homes. We believe a good interior should feel right at 7am with the blinds open and at 11pm with a single lamp on.</p>
+        <p>So we design for both. We plan light, material and storage together, then manage the build ourselves so what you approved on paper is what you come home to.</p>
+      </div>
+
+      <ul class="pillars">
+        <li class="reveal"><h3>Design</h3><p>Space planning, 3D visuals and material palettes built around how you live.</p></li>
+        <li class="reveal"><h3>Inspire</h3><p>Ideas you would not have found on your own, grounded in budget and buildability.</p></li>
+        <li class="reveal"><h3>Transform</h3><p>One accountable team from hacking to handover, so nothing is lost in translation.</p></li>
+      </ul>
+
+      <!-- our process — the four rooms are the four steps; hover a card to read it -->
+      <div class="spaces" id="process">
+        <div class="spaces__head reveal">
+          <div>
+            <p class="eyebrow">Our process</p>
+            <h2>Four steps from first chat to first night in</h2>
+          </div>
+          <p>Clear stages, clear costs, one point of contact. You always know what happens next.</p>
+        </div>
+        <div class="spaces__grid">
+          <figure class="room reveal" tabindex="0">
+            <div class="frame">
+              <img class="img-day" src="assets/img/day-living.jpg" alt="Living room with the lights on" loading="lazy">
+              <img class="img-night" src="assets/img/night-living.jpg" alt="The same living room with the lights off" loading="lazy">
+            </div>
+            <figcaption>
+              <span class="room__num">01</span>
+              <h3>Discover</h3>
+              <p class="room__text">We meet, walk the space and listen to your routines, your must-haves and your budget. No obligations.</p>
+            </figcaption>
+          </figure>
+          <figure class="room reveal" tabindex="0">
+            <div class="frame">
+              <img class="img-day" src="assets/img/day-kitchen.jpg" alt="Kitchen with the lights on" loading="lazy">
+              <img class="img-night" src="assets/img/night-kitchen.jpg" alt="The same kitchen with the lights off" loading="lazy">
+            </div>
+            <figcaption>
+              <span class="room__num">02</span>
+              <h3>Design</h3>
+              <p class="room__text">Space planning, material palettes and detailed 3D renders in day and night lighting, with a transparent itemised quotation.</p>
+            </figcaption>
+          </figure>
+          <figure class="room reveal" tabindex="0">
+            <div class="frame">
+              <img class="img-day" src="assets/img/day-bedroom.jpg" alt="Bedroom with the lights on" loading="lazy">
+              <img class="img-night" src="assets/img/night-bedroom.jpg" alt="The same bedroom with the lights off" loading="lazy">
+            </div>
+            <figcaption>
+              <span class="room__num">03</span>
+              <h3>Build</h3>
+              <p class="room__text">Our project managers run the site, coordinate every trade and send you regular progress updates.</p>
+            </figcaption>
+          </figure>
+          <figure class="room reveal" tabindex="0">
+            <div class="frame">
+              <img class="img-day" src="assets/img/day-bathroom.jpg" alt="Bathroom with the lights on" loading="lazy">
+              <img class="img-night" src="assets/img/night-bathroom.jpg" alt="The same bathroom with the lights off" loading="lazy">
+            </div>
+            <figcaption>
+              <span class="room__num">04</span>
+              <h3>Handover</h3>
+              <p class="room__text">Final checks, styling and a walkthrough together. Then the keys, and our after-care, are yours.</p>
+            </figcaption>
+          </figure>
+        </div>
+        <p class="spaces__hint">Hover a card to read each step.</p>
+      </div>
+
+    </section>
+
+    <!-- ============ SPACES WE DESIGN — four rooms, light and dark ============ -->
+    <section class="rooms" id="spaces">
+      <div class="rooms__head reveal">
+        <p class="eyebrow">Spaces we design</p>
+        <h2>Every room, light and dark.</h2>
+      </div>
+      <p class="rooms__style reveal">Dark luxury</p>
+      <div class="rooms__grid">
+          <figure class="rcard reveal" tabindex="0">
+            <div class="frame">
+              <img class="img-day" src="assets/img/dark-living-day.jpg" alt="A walnut and stone living room in daylight with city views" loading="lazy">
+              <img class="img-night" src="assets/img/dark-living-night.jpg" alt="The same living room at dusk, lit by warm cove and shelf lights" loading="lazy">
+            </div>
+            <figcaption><span>Living room</span><p>Stone feature wall, walnut joinery and the city at dusk.</p></figcaption>
+          </figure>
+          <figure class="rcard reveal" tabindex="0">
+            <div class="frame">
+              <img class="img-day" src="assets/img/dark-kitchen-day.jpg" alt="A walnut kitchen and dining room with a dark stone island in daylight" loading="lazy">
+              <img class="img-night" src="assets/img/dark-kitchen-night.jpg" alt="The same kitchen and dining room in the evening under warm pendants" loading="lazy">
+            </div>
+            <figcaption><span>Kitchen &amp; dining</span><p>Walnut, dark stone and warm pendants over the table.</p></figcaption>
+          </figure>
+          <figure class="rcard reveal" tabindex="0">
+            <div class="frame">
+              <img class="img-day" src="assets/img/dark-bath-day.jpg" alt="A graphite stone bathroom with walnut vanity in daylight" loading="lazy">
+              <img class="img-night" src="assets/img/dark-bath-night.jpg" alt="The same bathroom in the evening with glowing niches and mirror light" loading="lazy">
+            </div>
+            <figcaption><span>Bathroom</span><p>Graphite stone, brass and a soft evening glow.</p></figcaption>
+          </figure>
+          <figure class="rcard reveal" tabindex="0">
+            <div class="frame">
+              <img class="img-day" src="assets/img/dark-bedroom-day.jpg" alt="A charcoal and walnut bedroom in daylight" loading="lazy">
+              <img class="img-night" src="assets/img/dark-bedroom-night.jpg" alt="The same bedroom in the evening with bedside lamps and cove light" loading="lazy">
+            </div>
+            <figcaption><span>Bedroom</span><p>Charcoal, walnut and a warm bedside glow.</p></figcaption>
+          </figure>
+      </div>
+      <p class="rooms__style reveal">Wabi-sabi</p>
+      <div class="rooms__grid">
+          <figure class="rcard reveal" tabindex="0">
+            <div class="frame">
+              <img src="assets/img/wabi-living.jpg" alt="A wabi-sabi living room with limewash walls, a curved boucle sofa and a timber stump table" loading="lazy">
+            </div>
+            <figcaption><span>Living room</span><p>Limewash walls, boucle curves and a raw timber table.</p></figcaption>
+          </figure>
+          <figure class="rcard reveal" tabindex="0">
+            <div class="frame">
+              <img class="img-day" src="assets/img/wabi-kitchen-day.jpg" alt="A wabi-sabi kitchen and dining nook with warm lights on" loading="lazy">
+              <img class="img-night" src="assets/img/wabi-kitchen-night.jpg" alt="The same kitchen in soft daylight with the lights off" loading="lazy">
+            </div>
+            <figcaption><span>Kitchen &amp; dining</span><p>Fluted curves, rattan chairs and soft plaster.</p></figcaption>
+          </figure>
+          <figure class="rcard reveal" tabindex="0">
+            <div class="frame">
+              <img class="img-day" src="assets/img/wabi-bath-day.jpg" alt="A wabi-sabi bathroom with a raw stone basin and a glowing mirror" loading="lazy">
+              <img class="img-night" src="assets/img/wabi-bath-night.jpg" alt="The same bathroom in overcast daylight" loading="lazy">
+            </div>
+            <figcaption><span>Bathroom</span><p>A raw stone basin and an earthy, quiet calm.</p></figcaption>
+          </figure>
+          <figure class="rcard reveal" tabindex="0">
+            <div class="frame">
+              <img class="img-day" src="assets/img/wabi-bedroom-day.jpg" alt="A wabi-sabi bedroom with a textured plaster wall and bedside lamp on" loading="lazy">
+              <img class="img-night" src="assets/img/wabi-bedroom-night.jpg" alt="The same bedroom with the lights off" loading="lazy">
+            </div>
+            <figcaption><span>Bedroom</span><p>Plaster texture, linen layers and morning light.</p></figcaption>
+          </figure>
+      </div>
+      <button class="rooms__hint" type="button" data-lights>
+        <span class="lux__on">Turn the lights off to explore each room</span><span class="lux__off">Hover a room to explore</span>
+      </button>
+    </section>
+
+    <!-- ============ CTA ============ -->
+    <section class="cta" id="contact">
+      <div class="frame cta__bg">
+        <img class="img-day" src="assets/img/day-wide.jpg" alt="" loading="lazy">
+        <img class="img-night" src="assets/img/night-wide.jpg" alt="" loading="lazy">
+      </div>
+      <div class="cta__inner reveal">
+        <span class="mark mark--lg" aria-hidden="true"></span>
+        <h2>Let’s design a home that feels right at every hour.</h2>
+        <p>Tell us about your space. The first consultation is on us.</p>
+        <div class="cta__actions">
+          <!-- TODO: replace # with your WhatsApp link (https://wa.me/65XXXXXXXX) and email -->
+          <a class="btn btn--bronze" href="#">WhatsApp us <span class="arrow">→</span></a>
+          <a class="btn btn--glass" href="#">Email the studio</a>
+          <a class="btn btn--glass" href="contact.html#directions">Visit the studio</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer__brand">
+      <span class="mark mark--md" aria-hidden="true"></span>
+      <p>Interior Studio</p>
+      <small>Design • Inspire • Transform</small>
+    </div>
+
+    <div class="footer__col">
+      <h4>Visit the studio</h4>
+      <address>
+        10 Woodlands Square, #04-43<br>
+        Woods Square Solo 1<br>
+        Singapore 737714
+      </address>
+      <a class="footer__link" href="contact.html#directions">How to get here <span class="arrow">→</span></a>
+      <a class="footer__link" href="https://www.google.com/maps/search/?api=1&query=Woods+Square+Solo+1%2C+10+Woodlands+Square%2C+Singapore+737714" target="_blank" rel="noopener">Open in Google Maps <span class="arrow">↗</span></a>
+    </div>
+
+    <nav class="footer__col footer__nav" aria-label="Footer">
+      <h4>Explore</h4>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="about.html#process">Process</a>
+      <a href="index.html#testimonials">Testimonials</a>
+      <a href="careers.html">Careers</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <p class="footer__legal"><span>© <span id="year">2026</span> AD Interior Studio. All rights reserved.</span><a href="#top">Back to top ↑</a></p>
+  </footer>
+
+  <script src="js/main.js?v=24"></script>
+</body>
+</html>

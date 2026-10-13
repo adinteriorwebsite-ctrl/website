@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="day">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AD Interior Studio | Design · Inspire · Transform</title>
+  <meta name="description" content="AD Interior Studio designs and builds warm, considered homes. Step inside and take the tour.">
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo-mark.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=24">
+</head>
+<body class="is-loading">
+
+  <!-- ============ LOADER ============ -->
+  <div class="loader" id="loader">
+    <div class="loader__bg"></div>
+    <div class="loader__inner">
+      <span class="mark mark--xl" aria-hidden="true"></span>
+      <p class="loader__name">Interior Studio</p>
+      <div class="loader__bar" role="progressbar" aria-label="Loading"><span></span></div>
+    </div>
+  </div>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header" id="header">
+    <a class="brand" href="#top" aria-label="AD Interior Studio, back to top">
+      <span class="mark" aria-hidden="true"></span>
+      <span class="brand__text">Interior Studio</span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="about.html">About</a>
+      <a href="careers.html">Careers</a>
+    </nav>
+    <a class="btn btn--sm btn--bronze" href="contact.html">Contact us</a>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ HERO — scroll-scrubbed house tour ============ -->
+    <section class="stage" id="stage" aria-label="House tour">
+      <div class="stage__pin">
+        <canvas id="scene" aria-hidden="true"></canvas>
+        <div class="shade shade--intro" id="shadeIntro"></div>
+        <div class="shade shade--caption shade--right" id="shadeCaption1"></div>
+        <div class="shade shade--caption" id="shadeCaption2"></div>
+
+        <!-- 0 · arrival -->
+        <div class="intro" id="intro">
+          <div class="intro__inner" id="introInner">
+            <h1 class="intro__title">AD Interior</h1>
+            <div class="intro__rule"></div>
+            <p class="intro__tag">Design <i>•</i> Inspire <i>•</i> Transform</p>
+          </div>
+        </div>
+
+        <!-- 1 · first stop: reads like the top of a website — header, sub-header, CTA -->
+        <article class="caption caption--hero" id="cap1">
+          <h2>Interiors designed around the way you live</h2>
+          <p>AD Interior Studio designs and builds warm, considered homes, from the first sketch to the final handover.</p>
+          <div class="caption__actions">
+            <a class="btn btn--bronze" href="contact.html">Book a consultation <span class="arrow">→</span></a>
+          </div>
+        </article>
+
+        <!-- 2 · dining & kitchen -->
+        <article class="caption caption--cta" id="cap2">
+          <p class="eyebrow">From concept to completion</p>
+          <h2>Deeper in, every detail holds</h2>
+          <p>From the dining table to the last cabinet handle, one design language carries through. Considered joinery, honest materials and a build team that sweats the millimetres.</p>
+          <div class="caption__actions">
+            <a class="btn btn--bronze" href="contact.html">Book a consultation <span class="arrow">→</span></a>
+            <a class="btn btn--glass" href="about.html">Meet the studio</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT (teaser — the full story lives on about.html) ============ -->
+    <section class="about about--teaser" id="about">
+      <div class="about__head">
+        <div class="about__copy reveal">
+          <p class="eyebrow">About us</p>
+          <h2>One studio.<br>Homes for every hour.</h2>
+          <p class="lead">AD Interior Studio is a design-and-build practice shaping calm, liveable homes, planned for daylight and for the quiet glow after dark.</p>
+          <a class="btn btn--ghost" href="about.html">About the studio <span class="arrow">→</span></a>
+        </div>
+        <figure class="about__image reveal">
+          <img src="assets/img/studio-wide.jpg" alt="A living room designed by AD Interior Studio with the AD monogram on the feature wall" loading="lazy">
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <!-- NOTE: placeholder reviews — replace with real client testimonials before launch -->
+    <section class="testimonials" id="testimonials">
+      <div class="testimonials__head reveal">
+        <p class="eyebrow">Testimonials</p>
+        <h2>Homes we handed over.<br>Words we got back.</h2>
+      </div>
+
+      <div class="marquee" data-marquee>
+        <div class="marquee__track">
+          <blockquote class="tcard"><p>“The night renders sold us. The real thing looks exactly like them. Maybe better.”</p><footer><b>Rachel &amp; Wei Jie</b><span>4-room BTO</span></footer></blockquote>
+          <blockquote class="tcard"><p>“One point of contact from start to finish. We never had to chase a single contractor.”</p><footer><b>Marcus L.</b><span>Condominium</span></footer></blockquote>
+          <blockquote class="tcard"><p>“They talked us out of two expensive ideas and the home is better for it. Honest advice is rare.”</p><footer><b>Priya S.</b><span>5-room resale</span></footer></blockquote>
+          <blockquote class="tcard"><p>“Storage everywhere, and none of it looks like storage. Our friends keep asking who did the place.”</p><footer><b>Hui Min T.</b><span>3-room BTO</span></footer></blockquote>
+          <blockquote class="tcard"><p>“Finished on schedule, on budget, and the handover walkthrough was incredibly thorough.”</p><footer><b>Daniel &amp; Amira</b><span>Executive apartment</span></footer></blockquote>
+        </div>
+      </div>
+      <div class="marquee marquee--reverse" data-marquee>
+        <div class="marquee__track">
+          <blockquote class="tcard"><p>“Warm, calm and genuinely us. We walk in every evening and exhale.”</p><footer><b>Jolene K.</b><span>Condominium</span></footer></blockquote>
+          <blockquote class="tcard"><p>“The weekly site updates meant zero surprises. We were overseas for half the renovation.”</p><footer><b>Arjun &amp; Meera</b><span>Landed home</span></footer></blockquote>
+          <blockquote class="tcard"><p>“They designed the lighting as carefully as the carpentry. It completely changes the mood at night.”</p><footer><b>Shawn O.</b><span>4-room resale</span></footer></blockquote>
+          <blockquote class="tcard"><p>“Clear quotation, no hidden costs. What we signed was what we paid.”</p><footer><b>Mdm Lim</b><span>5-room BTO</span></footer></blockquote>
+          <blockquote class="tcard"><p>“Our kitchen is tiny. Somehow it now fits everything and still feels open.”</p><footer><b>Farah &amp; Imran</b><span>3-room resale</span></footer></blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA ============ -->
+    <section class="cta" id="contact">
+      <img class="cta__bg" src="assets/img/night-wide.jpg" alt="" loading="lazy">
+      <div class="cta__inner reveal">
+        <span class="mark mark--lg" aria-hidden="true"></span>
+        <h2>Let’s design a home that feels right at every hour.</h2>
+        <p>Tell us about your space. The first consultation is on us.</p>
+        <div class="cta__actions">
+          <!-- TODO: replace # with your WhatsApp link (https://wa.me/65XXXXXXXX) and email -->
+          <a class="btn btn--bronze" href="#">WhatsApp us <span class="arrow">→</span></a>
+          <a class="btn btn--glass" href="#">Email the studio</a>
+          <a class="btn btn--glass" href="contact.html#directions">Visit the studio</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer__brand">
+      <span class="mark mark--md" aria-hidden="true"></span>
+      <p>Interior Studio</p>
+      <small>Design • Inspire • Transform</small>
+    </div>
+
+    <div class="footer__col">
+      <h4>Visit the studio</h4>
+      <address>
+        10 Woodlands Square, #04-43<br>
+        Woods Square Solo 1<br>
+        Singapore 737714
+      </address>
+      <a class="footer__link" href="contact.html#directions">How to get here <span class="arrow">→</span></a>
+      <a class="footer__link" href="https://www.google.com/maps/search/?api=1&query=Woods+Square+Solo+1%2C+10+Woodlands+Square%2C+Singapore+737714" target="_blank" rel="noopener">Open in Google Maps <span class="arrow">↗</span></a>
+    </div>
+
+    <nav class="footer__col footer__nav" aria-label="Footer">
+      <h4>Explore</h4>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="about.html#process">Process</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="careers.html">Careers</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <p class="footer__legal"><span>© <span id="year">2026</span> AD Interior Studio. All rights reserved.</span><a href="#top">Back to top ↑</a></p>
+  </footer>
+
+  <script src="js/main.js?v=24"></script>
+</body>
+</html>

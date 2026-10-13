@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="day">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us | AD Interior Studio</title>
+  <meta name="description" content="Visit AD Interior Studio at Woods Square Solo 1, Woodlands. Address, directions by MRT or car, and how to reach us.">
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo-mark.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=24">
+</head>
+<body class="page-contact">
+
+  <!-- ============ HEADER ============ -->
+  <header class="header solid" id="header">
+    <a class="brand" href="index.html" aria-label="AD Interior Studio, home">
+      <span class="mark" aria-hidden="true"></span>
+      <span class="brand__text">Interior Studio</span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="about.html">About</a>
+      <a href="careers.html">Careers</a>
+    </nav>
+    <a class="btn btn--sm btn--bronze" href="#reach" aria-current="page">Contact us</a>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ CONTACT HERO ============ -->
+    <section class="chero">
+      <div class="chero__copy">
+        <p class="eyebrow">Contact us</p>
+        <h1 class="page-title">Come by the studio.</h1>
+        <p class="lead">We are at Woods Square in Woodlands, a few minutes' walk from Woodlands MRT. Drop in to talk through your home, see materials in person and meet the team.</p>
+
+        <dl class="cdetails">
+          <div>
+            <dt>Address</dt>
+            <dd>10 Woodlands Square, #04-43<br>Woods Square Solo 1<br>Singapore 737714</dd>
+          </div>
+          <div>
+            <dt>Getting here</dt>
+            <dd>3 to 5 min walk from Woodlands MRT (NS9 / TE2)<br>Parking at Basement 2</dd>
+          </div>
+        </dl>
+
+        <div class="chero__actions">
+          <a class="btn btn--bronze" href="#directions" data-directions="walk">How to get to our office <span class="arrow">→</span></a>
+          <a class="btn btn--ghost" href="https://www.google.com/maps/search/?api=1&query=Woods+Square+Solo+1%2C+10+Woodlands+Square%2C+Singapore+737714" target="_blank" rel="noopener">Open in Google Maps <span class="arrow">↗</span></a>
+        </div>
+      </div>
+      <figure class="chero__image reveal">
+        <img src="assets/img/way-entrance.jpg" alt="The Woods Square entrance sign for Tower 1 and Solo 1, surrounded by planting">
+      </figure>
+    </section>
+
+    <!-- ============ FIND US: labelled top view + the two ways in ============ -->
+    <section class="find">
+      <div class="find__head reveal">
+        <p class="eyebrow">Find us</p>
+        <h2>Look for Solo 1.</h2>
+        <p>Woods Square has four blocks: Tower 1, Tower 2, Solo 1 and Solo 2. We are in Solo 1, the low block beside Tower 1, on level 4.</p>
+      </div>
+
+      <figure class="aerial reveal">
+        <img src="assets/img/way-aerial.jpg" alt="Aerial view of Woods Square showing Tower 1, Tower 2, Solo 1 and Solo 2, next to Causeway Point and Woodlands Civic Centre" loading="lazy">
+        <span class="pin" style="--x:23%;--y:33%">Tower 1</span>
+        <span class="pin" style="--x:49%;--y:46%">Causeway Point</span>
+        <span class="pin" style="--x:64%;--y:43%">Tower 2</span>
+        <span class="pin" style="--x:83%;--y:57%">Civic Centre</span>
+        <span class="pin" style="--x:66%;--y:74%">Solo 2</span>
+        <span class="pin pin--here" style="--x:31%;--y:70%">Solo 1 · We are here</span>
+      </figure>
+
+      <div class="ways">
+        <a class="way reveal" href="#directions" data-directions="walk">
+          <div class="frame"><img src="assets/img/way-mrt.jpg" alt="Sheltered walkway from Woodlands MRT towards Woods Square" loading="lazy"></div>
+          <div class="way__body">
+            <span class="way__tag">By MRT</span>
+            <h3>3 to 5 minutes from Woodlands MRT</h3>
+            <p>Two walking routes, one fully sheltered.</p>
+            <span class="way__more">See the walking route <span class="arrow">→</span></span>
+          </div>
+        </a>
+        <a class="way reveal" href="#directions" data-directions="drive">
+          <div class="frame"><img src="assets/img/way-carpark.jpg" alt="Driveway down to the Basement 2 carpark at Woods Square" loading="lazy"></div>
+          <div class="way__body">
+            <span class="way__tag">By car</span>
+            <h3>Park at Basement 2</h3>
+            <p>Two carpark entrances. All four blocks are linked at B2.</p>
+            <span class="way__more">See the driving route <span class="arrow">→</span></span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- ============ REACH US ============ -->
+    <section class="cta cta--plain" id="reach">
+      <div class="cta__inner reveal">
+        <span class="mark mark--lg" aria-hidden="true"></span>
+        <h2>Tell us about your space.</h2>
+        <p>The first consultation is on us.</p>
+        <div class="cta__actions">
+          <!-- TODO: replace # with your WhatsApp link (https://wa.me/65XXXXXXXX) and mailto: address -->
+          <a class="btn btn--bronze" href="#">WhatsApp us <span class="arrow">→</span></a>
+          <a class="btn btn--ghost" href="#">Email the studio</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ DIRECTIONS POPUP — also opens from any link to contact.html#directions ============ -->
+  <dialog class="dir" id="directions" aria-labelledby="dirTitle">
+    <div class="dir__head">
+      <div>
+        <p class="eyebrow">How to get here</p>
+        <h2 id="dirTitle">Woods Square Solo 1, #04-43</h2>
+      </div>
+      <button class="dir__close" type="button" data-close aria-label="Close directions">×</button>
+    </div>
+
+    <div class="dir__tabs" role="tablist" aria-label="Choose how you are travelling">
+      <button role="tab" id="tab-walk" aria-controls="panel-walk" aria-selected="true" data-tab="walk">By MRT / on foot</button>
+      <button role="tab" id="tab-drive" aria-controls="panel-drive" aria-selected="false" data-tab="drive" tabindex="-1">By car</button>
+    </div>
+
+    <div class="dir__panel" role="tabpanel" id="panel-walk" aria-labelledby="tab-walk">
+      <ol class="route">
+        <li>
+          <div class="frame"><img src="assets/img/way-mrt.jpg" alt="Sheltered walkway leading from Woodlands MRT, with Causeway Point on the left" loading="lazy"></div>
+          <div><span class="route__num">01</span><h3>Start at Woodlands MRT</h3>
+          <p>Exit Woodlands MRT (NS9 / TE2) towards Causeway Point and Woods Square. Choose your route:</p>
+          <ul class="route__opts"><li><b>Sheltered</b> 4 to 5 min, under cover all the way</li><li><b>Direct</b> 3 to 4 min, partly open to the sky</li></ul></div>
+        </li>
+        <li>
+          <div class="frame"><img src="assets/img/way-entrance.jpg" alt="The Woods Square sign reading Tower 1 and Solo 1" loading="lazy"></div>
+          <div><span class="route__num">02</span><h3>Find the Tower 1 | Solo 1 sign</h3>
+          <p>Follow the covered walkway to the Woods Square sign marked Tower 1 and Solo 1. Solo 1 is the low block beside Tower 1.</p></div>
+        </li>
+        <li>
+          <div class="frame"><img src="assets/img/way-lift.jpg" alt="Lift lobby with bronze lift doors and stone floor" loading="lazy"></div>
+          <div><span class="route__num">03</span><h3>Take the lift to level 4</h3>
+          <p>Enter the Solo 1 lift lobby and go up to level 4. We are at unit <b>#04-43</b>.</p></div>
+        </li>
+      </ol>
+    </div>
+
+    <div class="dir__panel" role="tabpanel" id="panel-drive" aria-labelledby="tab-drive" hidden>
+      <ol class="route">
+        <li>
+          <div class="frame"><img src="assets/img/way-carpark.jpg" alt="Car driving down the ramp to the Basement 2 carpark" loading="lazy"></div>
+          <div><span class="route__num">01</span><h3>Drive to 10 Woodlands Square</h3>
+          <p>Set your GPS to <b>Woods Square Solo 1</b>. There are two ways into the Basement 2 carpark:</p>
+          <ul class="route__opts"><li><b>Option 1</b> Solo 1 Basement 2 carpark entrance</li><li><b>Option 2</b> Enter from the Tower 2 carpark entrance</li></ul></div>
+        </li>
+        <li>
+          <div class="frame"><img src="assets/img/way-entrance.jpg" alt="Woods Square Tower 1 and Solo 1 entrance" loading="lazy"></div>
+          <div><span class="route__num">02</span><h3>Park anywhere at Basement 2</h3>
+          <p>The Basement 2 carparks of Tower 1, Tower 2, Solo 1 and Solo 2 are all linked, so either entrance works. Follow the signs to the Solo 1 lifts.</p></div>
+        </li>
+        <li>
+          <div class="frame"><img src="assets/img/way-lift.jpg" alt="Lift lobby with bronze lift doors and stone floor" loading="lazy"></div>
+          <div><span class="route__num">03</span><h3>Take the lift to level 4</h3>
+          <p>From the Solo 1 lift lobby, go up to level 4. We are at unit <b>#04-43</b>.</p></div>
+        </li>
+      </ol>
+    </div>
+
+    <div class="dir__foot">
+      <address>10 Woodlands Square, #04-43 Woods Square Solo 1, Singapore 737714</address>
+      <div class="dir__actions">
+        <button class="btn btn--sm btn--ghost" type="button" id="copyAddr">Copy address</button>
+        <a class="btn btn--sm btn--bronze" href="https://www.google.com/maps/search/?api=1&query=Woods+Square+Solo+1%2C+10+Woodlands+Square%2C+Singapore+737714" target="_blank" rel="noopener">Open in Google Maps <span class="arrow">↗</span></a>
+      </div>
+    </div>
+  </dialog>
+
+  <footer class="footer">
+    <div class="footer__brand">
+      <span class="mark mark--md" aria-hidden="true"></span>
+      <p>Interior Studio</p>
+      <small>Design • Inspire • Transform</small>
+    </div>
+
+    <div class="footer__col">
+      <h4>Visit the studio</h4>
+      <address>
+        10 Woodlands Square, #04-43<br>
+        Woods Square Solo 1<br>
+        Singapore 737714
+      </address>
+      <a class="footer__link" href="contact.html#directions">How to get here <span class="arrow">→</span></a>
+      <a class="footer__link" href="https://www.google.com/maps/search/?api=1&query=Woods+Square+Solo+1%2C+10+Woodlands+Square%2C+Singapore+737714" target="_blank" rel="noopener">Open in Google Maps <span class="arrow">↗</span></a>
+    </div>
+
+    <nav class="footer__col footer__nav" aria-label="Footer">
+      <h4>Explore</h4>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="about.html#process">Process</a>
+      <a href="index.html#testimonials">Testimonials</a>
+      <a href="careers.html">Careers</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <p class="footer__legal"><span>© <span id="year">2026</span> AD Interior Studio. All rights reserved.</span><a href="#top">Back to top ↑</a></p>
+  </footer>
+
+  <script src="js/main.js?v=24"></script>
+</body>
+</html>
